@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Huddle landing page with curved sections</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        padding: 20px 0;
+      }
+      .attribution a {
+        color: hsl(228, 50%, 65%);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="row space-between container">
+        <img
+          src="./images/logo.svg"
+          alt="Huddle Logo"
+          class="logo spacer-right"
+        />
+        <p>
+          <a href="" class="btn btn-outline-primary">Try it free</a>
+        </p>
+      </div>
+    </header>
+    <div class="container text-center">
+      <h1>
+        Build The Community Your Fans Will Love
+      </h1>
+
+      <p class="container-md">
+        Huddle re-imagines the way we build communities. You have a voice, but
+        so does your audience. Create connections with your users as you engage
+        in genuine discussion.
+      </p>
+      <p>
+        <a href="" class="btn btn-primary">Get Started For Free</a>
+      </p>
+      <img
+        src="./images/screen-mockups.svg"
+        alt="Screen Mockups"
+        class="hero-img"
+      />
+    </div>
+
+    <section class="row space-evenly wavy-spacer container">
+      <div class="stat-container">
+        <img
+          src="./images/icon-communities.svg"
+          alt="Communities Icon"
+          class="icon icon-lg"
+        />
+        <p class="stat">1.4k+</p>
+        <p class="stat-attr">Communities Formed</p>
+      </div>
+
+      <div class="stat-container">
+        <img
+          src="./images/icon-messages.svg"
+          alt="Messages Icon"
+          class="icon icon-lg"
+        />
+        <p class="stat">2.7m+</p>
+        <p class="stat-attr">Messages Sent</p>
+      </div>
+    </section>
+
+    <section class="row wavy-bg-1">
+      <div class="container col-desktop">
+        <img
+          src="./images/illustration-grow-together.svg"
+          alt="Grow Together"
+          class="illustration"
+        />
+      </div>
+
+      <div class="container col-desktop spacer-top">
+        <h2>Grow Together</h2>
+        <p class="container-md">
+          Generate meaningful discussions with your audience and build a strong,
+          loyal community. Think of the insightful conversations you miss out on
+          with a feedback form.
+        </p>
+      </div>
+    </section>
+    <section class="row-reverse wavy-spacer">
+      <div class="container col-desktop">
+        <img
+          src="./images/illustration-flowing-conversation.svg"
+          alt="Flowing Conversations"
+          class="illustration"
+        />
+      </div>
+
+      <div class="container col-desktop spacer-top">
+        <h2>Flowing Conversations</h2>
+        <p class="container-md">
+          You wouldn't paginate a conversation in real life, so why do it
+          online? Our threads have just-in-time loading for a more natural flow.
+        </p>
+      </div>
+    </section>
+
+    <section class="row wavy-bg-2">
+      <div class="container col-desktop">
+        <img
+          src="./images/illustration-your-users.svg"
+          alt="Your Users"
+          class="illustration"
+        />
+      </div>
+      <div class="container col-desktop spacer-top">
+        <h2>Your Users</h2>
+        <p class="container-md">
+          It takes no time at all to integrate Huddle with your app's
+          authentication solution. This means, once signed in to your app, your
+          users can start chatting immediately.
+        </p>
+      </div>
+    </section>
+
+    <section class="container wavy-spacer text-center">
+      <h1>Ready To Build Your Community?</h1>
+      <p>
+        <a href="" class="btn btn-primary">Get Started For Free</a>
+      </p>
+    </section>
+
+    <footer>
+      <div class="row-wrap-reverse">
+        <div class="container col-desktop spacer-top">
+          <img src="./images/logo-light.svg" alt="Huddle Logo" class="logo" />
+          <p class="container-md">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+            nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+          </p>
+          <div class="row">
+            <img
+              src="./images/icon-phone.svg"
+              alt="Phone Icon"
+              class="icon spacer-right"
+            />
+
+            <p>Phone: +1-543-123-4567</p>
+          </div>
+          <div class="row">
+            <img
+              src="./images/icon-email.svg"
+              alt="Email Icon"
+              class="icon spacer-right"
+            />
+
+            <p>example@huddle.com</p>
+          </div>
+
+          <nav class="spacer-top">
+            <ul class="nav row">
+              <li class="spacer-right">
+                <a href=""
+                  ><ion-icon name="logo-facebook" class="icon icon-link"
+                /></a>
+              </li>
+              <li class="spacer-right">
+                <a href=""
+                  ><ion-icon name="logo-instagram" class="icon icon-link"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><ion-icon name="logo-twitter" class="icon icon-link"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="container col-desktop spacer-bottom">
+          <h3>Newsletter</h3>
+
+          <p class="container-md">
+            To recieve tips on how to grow your community, sign up to our weekly
+            newsletter. We’ll never send you spam or pass on your email address
+          </p>
+
+          <form id="newletter-signup" class="container-md">
+            <input
+              type="email"
+              class="input fluid-input"
+              aria-label="email-for-newletter"
+            />
+            <button type="submit" class="btn btn-primary input submit-btn">
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">nadineeen</a>.
+      </div>
+    </footer>
+
+    <!-- Ionicons Script-->
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+  </body>
+</html>
